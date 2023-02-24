@@ -1,0 +1,36 @@
+// Online C compiler to run C program online
+//PRIMEIRO CODIGO EM C
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    //printf("Hello world");
+    
+    //laço de repetição for
+    /*
+    int myNum;
+	for (myNum=1;myNum<=10;myNum++)	
+		printf("Numero: %d\n", myNum);
+
+    return 0;
+    */
+    
+    //laço de repetição while
+    /*
+    int num = 0;
+    while(num>=0){
+        printf ("Digite um número: ");
+        scanf("%d",&num);
+    }
+    return 0;
+    */
+    
+    /*laço de repeticao do-while*/
+	int numero;
+	do{
+	    printf("Digite um número: ");
+	    scanf("%d",&numero);
+	    printf("Numero: %d\n", numero);
+    } while (numero>=0);
+	return 0;
+}
